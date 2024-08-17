@@ -1,0 +1,57 @@
+body {
+    font-size: 18px;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: cover;
+}
+
+header h2, a {
+    color:var(--white) ;
+}
+
+.header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+nav a {
+ margin: 30px;
+}
+
+.contato {
+    padding: 15px 25px;
+    background-color: var(--white);
+    font-weight: bold;
+    color: black;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.logo {
+    font-weight: bold;
+}
+.contato:hover {
+    background-color: #73CEFD;
+}
+
+.painel {
+    height: 100%;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.painel h1 {
+    margin: 50px;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    
+}
